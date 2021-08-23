@@ -2,7 +2,9 @@
 <div class="container">
 
 	<router-link to="/">Home</router-link>
-	<router-link to="/profile">Profile</router-link>
+	<router-link to="/profile/1">Profile 1</router-link>
+	<router-link to="/profile/2">Profile 2</router-link>
+	<router-link to="/profile/3">Profile 3</router-link>
 	<router-link to="/contact">Contact</router-link>
 
 	<router-view></router-view>
