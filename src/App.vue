@@ -8,16 +8,18 @@
 	<router-link to="/contact">Contact</router-link>
 
 	<router-view></router-view>
+
+    <Api />
 </div>
 </template>
 
 <script>
-
+import Api from './Components/Api';
 
 export default {
     name: 'App',
     components: {
-        
+        Api
     }
 }
 </script>
